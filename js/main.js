@@ -53,7 +53,7 @@ const team = [
         ruolo:  "Graphic Designer",
         foto:   "barbara-ramos-graphic-designer.jpg"
     }
-]
+];
 
 // Stampo su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
 console.log(team);
