@@ -62,3 +62,11 @@ for (let i = 0; i < team.length; i++) {
 }
 
 
+// Stampo le stesse informazioni su DOM sottoforma di stringhe
+const listaMembri = document.querySelector('.membri');
+for (let i = 0; i < team.length; i++) {
+    const listaDOM = document.createElement('li');
+    listaDOM.innerHTML = team[i].nome + '-' + team[i].ruolo + ' - foto: ' + team[i].foto;
+    listaMembri.append(listaDOM);
+}
+
