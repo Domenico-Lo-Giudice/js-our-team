@@ -16,6 +16,7 @@
 // Organizzare i singoli membri in card / schede
 
 
+
 // Creo l’array di oggetti con le informazioni fornite.
 const team = [
     {
@@ -56,7 +57,8 @@ const team = [
 ];
 
 // Stampo su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
-console.log(team);
-
+for (let i = 0; i < team.length; i++) {
+    console.log(team[i]);
+}
 
 
