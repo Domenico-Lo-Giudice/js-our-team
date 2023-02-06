@@ -66,7 +66,7 @@ for (let i = 0; i < team.length; i++) {
 const listaMembri = document.querySelector('.membri');
 for (let i = 0; i < team.length; i++) {
     const listaDOM = document.createElement('li');
-    listaDOM.innerHTML = team[i].nome + '-' + team[i].ruolo + ' - foto: ' + team[i].foto;
+    listaDOM.innerHTML = team[i].nome + ' - ' + team[i].ruolo + ' - foto: ' + team[i].foto;
     listaMembri.append(listaDOM);
 }
 
